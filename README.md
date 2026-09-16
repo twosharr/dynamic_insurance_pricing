@@ -88,8 +88,7 @@ py run.py
 `run.py` automatically:
 1. Generates the sample documents and 1,000-driver fleet CSV.
 2. Calibrates the Gradient Boosting actuarial ML risk model.
-3. Compiles the publication-quality Executive Presentation PDF.
-4. Starts the FastAPI web server on `http://localhost:8000`.
+3. Starts the FastAPI web server on `http://localhost:8000`.
 
 ### URL Access Points:
 - **Interactive Web Dashboard:** [http://localhost:8000](http://localhost:8000)
