@@ -66,13 +66,9 @@ Safe drivers earn discounts of **up to 35% (\$468+ annual savings)**, while carr
    - Real-time simulator playback with live vehicle telemetry HUD (Speed, g-force, phone state).
 4. **Explainable AI (XAI) Waterfall Breakdown:**
    - Visual attribution showing the exact dollar impact of every driving behavior, meeting FCRA and NAIC transparency requirements.
-5. **Free Weather Hazard API (Open-Meteo):**
-   - 100% free, zero API key required. Real-time atmospheric risk multiplier (rain, snow, ice, wind) with automatic offline fallback.
-6. **Actuarial Fleet Manager (1,000 Synthetic Drivers):**
+5. **Actuarial Fleet Manager (1,000 Synthetic Drivers):**
    - Pre-loaded with 5 archetypes (*Safe Commuter Elena, Weekend Joyrider Marcus, Night Shift Sarah, Distracted Urbanite Leo, Aggressive Speedster Tyler*).
    - Filterable table with one-click simulator loading.
-7. **Executive Presentation PDF Generator:**
-   - Generates a publication-quality 6-page whitepaper with ReportLab, containing actuarial proofs, architecture specs, and manager talk tracks.
 
 ---
 
