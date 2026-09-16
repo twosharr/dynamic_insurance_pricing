@@ -1,0 +1,35 @@
+{
+  "policy_contract_number": "UBI-POL-2026-77894",
+  "insured_name": "Elena Rostova",
+  "effective_date": "2026-10-01",
+  "expiration_date": "2027-10-01",
+  "vehicle": {
+    "vin": "1HGCR2F83HA129845",
+    "year": 2024,
+    "make": "Honda",
+    "model": "Accord Hybrid Touring",
+    "declared_value": 34500.0
+  },
+  "telematics_integration": {
+    "provider": "Zendrive Mobile Telematics SDK v7.4",
+    "device_type": "Smartphone Gyroscope / Accelerometer + BLE Beacon",
+    "sampling_frequency_hz": 10,
+    "data_retention_days": 90,
+    "privacy_standard": "ISO-27001 / GDPR Article 9 Compliant"
+  },
+  "actuarial_premium_structure": {
+    "traditional_demographic_premium_annual": 1580.0,
+    "current_telematics_score": 93.4,
+    "safety_tier": "Elite Safe (Top 15%)",
+    "applied_telematics_discount_pct": 31.5,
+    "dynamic_annual_premium": 1082.3,
+    "monthly_billing_amount": 90.19,
+    "annual_policyholder_savings": 497.7
+  },
+  "coverage_limits": {
+    "bodily_injury_liability": "$250,000 / $500,000",
+    "property_damage_liability": "$100,000",
+    "collision_deductible": "$500",
+    "comprehensive_deductible": "$250"
+  }
+}

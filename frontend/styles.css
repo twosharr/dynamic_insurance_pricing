@@ -1,0 +1,152 @@
+/* styles.css - Modern Enterprise Dark Theme for UC070 Dynamic Insurance Pricing */
+
+:root {
+  --bg-main: #0B1120;
+  --bg-card: #111827;
+  --bg-card-hover: #162032;
+  --border-subtle: #1F2937;
+  --border-bright: #374151;
+  --text-main: #F9FAFB;
+  --text-muted: #9CA3AF;
+  --accent-blue: #3B82F6;
+  --accent-cyan: #06B6D4;
+  --accent-green: #10B981;
+  --accent-amber: #F59E0B;
+  --accent-red: #EF4444;
+  --accent-purple: #8B5CF6;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1120;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Glassmorphism card utilities */
+.glass-card {
+  background: rgba(17, 24, 39, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.glass-card:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+/* Range input custom styling */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: #1F2937;
+  height: 6px;
+  border-radius: 4px;
+  outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent-blue);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.7);
+  border: 2px solid #FFFFFF;
+  transition: transform 0.1s ease;
+}
+input[type=range]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+/* Circular Gauge Animation */
+.gauge-circle {
+  transition: stroke-dashoffset 0.6s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.4s ease;
+}
+
+/* Leaflet Map Customizations */
+#map {
+  width: 100%;
+  height: 380px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  z-index: 10;
+}
+
+.leaflet-container {
+  background: #0B1120 !important;
+}
+
+.pulse-marker {
+  animation: pulse-ring 1.8s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 0.9; }
+  50% { transform: scale(1.4); opacity: 0.4; }
+  100% { transform: scale(0.9); opacity: 0.9; }
+}
+
+/* Badge styles */
+.badge-elite {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34D399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+.badge-low {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60A5FA;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+.badge-moderate {
+  background: rgba(245, 158, 11, 0.15);
+  color: #FBBF24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+.badge-high {
+  background: rgba(239, 68, 68, 0.15);
+  color: #F87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Tabs */
+.tab-btn {
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.tab-btn:hover {
+  color: var(--text-main);
+  background: rgba(31, 41, 55, 0.6);
+}
+.tab-btn.active {
+  color: #FFFFFF;
+  background: rgba(59, 130, 246, 0.2);
+  border: 1px solid var(--accent-blue);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.25);
+}

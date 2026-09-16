@@ -1,0 +1,51 @@
+trip_id,route_name,date,distance_miles,duration_minutes,trip_safety_score,hard_brakes,speeding_pct,fuel_efficiency_mpg
+TRIP-SUMM-2001,Marin County → Presidio Expressway,2026-09-01,25.8,56.0,74,2.7,8.8,32.5
+TRIP-SUMM-2002,Marin County → Presidio Expressway,2026-09-08,15.3,29.0,67,3.9,1.2,31.7
+TRIP-SUMM-2003,Oakland Hills → Berkeley,2026-09-08,15.7,36.0,51,0.9,8.5,29.9
+TRIP-SUMM-2004,Fremont Blvd → Palo Alto University Ave,2026-09-07,23.0,55.0,73,3.7,10.6,32.4
+TRIP-SUMM-2005,San Jose Airport → Sunnyvale Tech Center,2026-09-08,29.3,64.0,60,1.2,8.8,30.9
+TRIP-SUMM-2006,Fremont Blvd → Palo Alto University Ave,2026-09-02,27.5,56.0,59,3.5,19.9,30.8
+TRIP-SUMM-2007,Fremont Blvd → Palo Alto University Ave,2026-09-03,18.6,45.0,81,1.9,1.6,33.3
+TRIP-SUMM-2008,Fremont Blvd → Palo Alto University Ave,2026-09-03,35.8,90.0,89,4.2,5.2,34.2
+TRIP-SUMM-2009,Oakland Hills → Berkeley,2026-09-06,8.7,18.0,48,4.4,7.5,29.5
+TRIP-SUMM-2010,Oakland Hills → Berkeley,2026-09-05,19.9,38.0,45,3.0,5.2,29.2
+TRIP-SUMM-2011,Oakland Hills → Berkeley,2026-09-09,14.7,29.0,58,2.0,16.2,30.7
+TRIP-SUMM-2012,Fremont Blvd → Palo Alto University Ave,2026-09-07,33.2,70.0,75,0.8,3.1,32.6
+TRIP-SUMM-2013,Oakland Hills → Berkeley,2026-09-02,28.2,71.0,87,1.8,10.7,34.0
+TRIP-SUMM-2014,San Jose Airport → Sunnyvale Tech Center,2026-09-07,17.5,36.0,53,1.9,7.9,30.1
+TRIP-SUMM-2015,Fremont Blvd → Palo Alto University Ave,2026-09-01,24.7,55.0,67,2.2,16.5,31.7
+TRIP-SUMM-2016,Fremont Blvd → Palo Alto University Ave,2026-09-01,11.8,27.0,94,1.1,8.6,34.8
+TRIP-SUMM-2017,Oakland Hills → Berkeley,2026-09-01,25.1,60.0,49,2.9,3.9,29.6
+TRIP-SUMM-2018,Oakland Hills → Berkeley,2026-09-05,11.4,24.0,66,1.8,4.8,31.6
+TRIP-SUMM-2019,Marin County → Presidio Expressway,2026-09-03,14.9,35.0,75,0.3,21.1,32.6
+TRIP-SUMM-2020,San Jose Airport → Sunnyvale Tech Center,2026-09-02,9.8,23.0,98,0.6,17.9,35.3
+TRIP-SUMM-2021,Fremont Blvd → Palo Alto University Ave,2026-09-09,26.7,57.0,96,0.2,7.7,35.0
+TRIP-SUMM-2022,Marin County → Presidio Expressway,2026-09-01,17.4,38.0,76,3.0,15.1,32.7
+TRIP-SUMM-2023,Marin County → Presidio Expressway,2026-09-09,14.6,29.0,85,0.6,17.9,33.8
+TRIP-SUMM-2024,SF Downtown → San Mateo,2026-09-03,17.0,37.0,66,3.8,21.4,31.6
+TRIP-SUMM-2025,SF Downtown → San Mateo,2026-09-06,37.8,84.0,69,3.9,2.7,31.9
+TRIP-SUMM-2026,Marin County → Presidio Expressway,2026-09-07,36.7,87.0,61,1.0,18.1,31.0
+TRIP-SUMM-2027,SF Downtown → San Mateo,2026-09-06,5.9,12.0,52,3.9,10.7,30.0
+TRIP-SUMM-2028,San Jose Airport → Sunnyvale Tech Center,2026-09-03,12.9,27.0,63,3.5,1.5,31.2
+TRIP-SUMM-2029,Fremont Blvd → Palo Alto University Ave,2026-09-02,14.3,31.0,73,1.5,14.4,32.4
+TRIP-SUMM-2030,Fremont Blvd → Palo Alto University Ave,2026-09-02,16.5,30.0,92,1.8,4.7,34.6
+TRIP-SUMM-2031,Marin County → Presidio Expressway,2026-09-04,8.5,16.0,76,2.0,6.8,32.7
+TRIP-SUMM-2032,SF Downtown → San Mateo,2026-09-02,35.7,90.0,91,3.7,13.0,34.5
+TRIP-SUMM-2033,SF Downtown → San Mateo,2026-09-07,15.4,28.0,83,4.4,14.4,33.5
+TRIP-SUMM-2034,Marin County → Presidio Expressway,2026-09-07,21.8,52.0,66,4.2,16.7,31.6
+TRIP-SUMM-2035,SF Downtown → San Mateo,2026-09-07,5.0,13.0,61,3.3,16.6,31.0
+TRIP-SUMM-2036,Fremont Blvd → Palo Alto University Ave,2026-09-09,37.3,91.0,81,1.2,7.4,33.3
+TRIP-SUMM-2037,Oakland Hills → Berkeley,2026-09-07,33.5,67.0,96,0.3,13.0,35.0
+TRIP-SUMM-2038,Fremont Blvd → Palo Alto University Ave,2026-09-07,13.6,32.0,56,1.3,15.1,30.4
+TRIP-SUMM-2039,Marin County → Presidio Expressway,2026-09-03,35.4,83.0,62,0.1,5.3,31.1
+TRIP-SUMM-2040,Oakland Hills → Berkeley,2026-09-04,13.6,30.0,95,4.4,7.7,34.9
+TRIP-SUMM-2041,Fremont Blvd → Palo Alto University Ave,2026-09-08,4.8,10.0,49,2.8,16.3,29.6
+TRIP-SUMM-2042,Fremont Blvd → Palo Alto University Ave,2026-09-01,24.4,56.0,66,2.5,11.0,31.6
+TRIP-SUMM-2043,Marin County → Presidio Expressway,2026-09-04,16.0,33.0,97,2.1,10.7,35.2
+TRIP-SUMM-2044,Fremont Blvd → Palo Alto University Ave,2026-09-02,22.5,44.0,69,1.2,1.7,31.9
+TRIP-SUMM-2045,Fremont Blvd → Palo Alto University Ave,2026-09-06,25.9,58.0,67,0.5,16.7,31.7
+TRIP-SUMM-2046,Fremont Blvd → Palo Alto University Ave,2026-09-03,14.6,35.0,73,3.1,1.6,32.4
+TRIP-SUMM-2047,San Jose Airport → Sunnyvale Tech Center,2026-09-09,25.6,58.0,71,4.5,1.5,32.2
+TRIP-SUMM-2048,Fremont Blvd → Palo Alto University Ave,2026-09-02,29.7,77.0,69,4.2,3.8,31.9
+TRIP-SUMM-2049,Oakland Hills → Berkeley,2026-09-07,7.5,15.0,52,2.6,4.8,30.0
+TRIP-SUMM-2050,San Jose Airport → Sunnyvale Tech Center,2026-09-06,23.1,48.0,58,1.9,13.6,30.7
