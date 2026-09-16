@@ -1,15 +1,9 @@
 # UC070: AI-Powered Dynamic Pricing for Auto Insurance
 ### Behavioral Telematics Scoring, Usage-Based Insurance (UBI), and Real-Time Risk Calibration
 
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI%20%2B%20Uvicorn-009688.svg)](https://fastapi.tiangolo.com/)
-[![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn%20%2B%20XGBoost-F7931E.svg)](https://scikit-learn.org/)
-[![Telematics](https://img.shields.io/badge/Telematics-Zendrive%20%2B%20CMT%20Benchmarks-3B82F6.svg)](https://www.zendrive.com/)
-[![Free API](https://img.shields.io/badge/Free%20API-Open--Meteo%20Road%20Hazard-10B981.svg)](https://open-meteo.com/)
-[![Executive PDF](https://img.shields.io/badge/Presentation-ReportLab%20Executive%20PDF-6366F1.svg)](https://www.reportlab.com/)
-
 ---
 
-## 1. Project Executive Overview
+## 1. Project Overview
 **UC070** delivers a modern, actuarially sound **AI-Powered Dynamic Pricing Platform for Auto Insurance**. 
 
 ### The Industry Dilemma: Why Fixed Pricing Fails
@@ -91,7 +85,7 @@ Safe drivers earn discounts of **up to 35% (\$468+ annual savings)**, while carr
 ### 1-Command Launch
 ```powershell
 # In Windows PowerShell:
-cd C:\Users\t21\.gemini\antigravity\scratch\dynamic_insurance_pricing
+cd C:\Users\t21\Desktop\dynamic_insurance_pricing
 py run.py
 ```
 
@@ -103,7 +97,6 @@ py run.py
 
 ### URL Access Points:
 - **Interactive Web Dashboard:** [http://localhost:8000](http://localhost:8000)
-- **Interactive Swagger REST API:** [http://localhost:8000/docs](http://localhost:8000/docs)
 - **Direct PDF Download:** [http://localhost:8000/api/download-report](http://localhost:8000/api/download-report)
 - **Sample Documents Folder:** [http://localhost:8000/sample_documents/](http://localhost:8000/sample_documents/)
 
@@ -132,9 +125,6 @@ dynamic_insurance_pricing/
 │   ├── api_integration_guide.md             # Free APIs guide (Open-Meteo, Leaflet, Nominatim)
 │   ├── executive_summary_and_business_case.md # Business case, loss ratio lift, and ROI
 │   └── sample_dynamic_policy_schedule.json  # Connected insurance policy schedule JSON
-├── docs_and_presentation/
-│   ├── UC070_Dynamic_Insurance_Pricing_Executive_Guide.pdf # 6-page executive presentation PDF
-│   └── manager_presentation_script.md       # Slide-by-slide demo script for manager & team
 ├── run.py                       # One-click startup script
 ├── requirements.txt             # Dependency specifications
 └── README.md                    # Project documentation
@@ -142,20 +132,4 @@ dynamic_insurance_pricing/
 
 ---
 
-## 5. Free API Integration Details
-This project is engineered to be **100% operational with ZERO API keys or paid subscriptions**:
-- **Open-Meteo Weather API:** Queries `https://api.open-meteo.com/v1/forecast` for live surface precipitation, snowfall, ambient temperature, and wind speed. Includes an automated offline fallback simulator.
-- **Leaflet.js & OpenStreetMap:** Renders high-resolution interactive map tiles without requiring Google Maps billing credentials.
-- **Nominatim Geocoding:** Reverse geolocates coordinates via OpenStreetMap community servers.
-- *Optional commercial upgrades* (e.g. Zendrive Mobile SDK, TomTom Hazards, Google Maps) are fully documented in [`sample_documents/api_integration_guide.md`](file:///C:/Users/t21/.gemini/antigravity/scratch/dynamic_insurance_pricing/sample_documents/api_integration_guide.md).
-
----
-
-## 6. How to Demonstrate This Project to Your Manager & Team
-Follow the 5-step demonstration walkthrough provided in [`docs_and_presentation/manager_presentation_script.md`](file:///C:/Users/t21/.gemini/antigravity/scratch/dynamic_insurance_pricing/docs_and_presentation/manager_presentation_script.md):
-
-1. **Step 1: The Fixed Pricing Dilemma:** Open `localhost:8000`. Show that two identical drivers pay the same \$1,450 regardless of whether they drive safely or text while speeding.
-2. **Step 2: Safe Driver Simulator:** Click the **Safe Commuter Elena** button. Show how the score jumps to 93.2 and dynamic premium drops to \$982, rewarding the driver with **\$468 in annual savings**.
-3. **Step 3: GIS Route & Telemetry:** Switch to the **Interactive GIS Route Map** tab and click **Play Trip Simulation**. Point out the red hard-braking and purple distracted-driving markers along the route.
-4. **Step 4: Weather Risk:** Demonstrate how live rainfall or snow from the **Open-Meteo API** automatically adjusts the road risk multiplier.
-5. **Step 5: Executive PDF & Business Case:** Click **Download Executive PDF Report** and show management the publication-grade 6-page document outlining mathematical proofs, loss ratio reduction (-15.3 pts), and regulatory compliance.
+Thank You 
